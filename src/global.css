@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'WorkSans'; 
+    src: url('../public/fonts/static/WorkSans-Bold.ttf') , format(".ttf") ;
+}
+@layer base{
+    body {
+        @apply bg-Pink;
+    }
+}
