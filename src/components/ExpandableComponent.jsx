@@ -10,7 +10,7 @@ const ExpandableComponent = ({headerText,mainText}) => {
  };
 
  return (
-   <div className='py-5 px-2 hover:rounded-lg hover:bg-Pink'>
+   <div className='py-5 px-2   hover:rounded-lg hover:bg-Pink'>
 
    <div className="cursor-pointer flex justify-between items-center " onClick={handleClick}>
         <p className=' font-WorkSans text-DarkPurple font-bold sm:text-base lg:text-lg text-left'>{headerText}</p>

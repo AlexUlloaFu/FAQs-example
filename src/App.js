@@ -45,7 +45,7 @@ function App() {
             <img src={starIcon} className=" w-5" alt='icon'/>
             <h1 className=" font-WorkSans text-DarkPurple font-bold text-3xl px-4">FAQs</h1>
           </div>
-          <div className='mt-5'>
+          <div className='mt-5 divide-y divide-Pink'>
             {
               FAQs.map( (faq,index) => 
                 <ExpandableComponent key={index} headerText={faq.headerText} mainText={faq.mainText}/>
