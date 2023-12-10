@@ -8,6 +8,7 @@ import bgDesktop from './images/background-pattern-desktop.svg'
 import ExpandableComponent from './components/ExpandableComponent';
 
 import { getAllFAQs } from './services/FAQService';
+import faqs from './faqs.json'
 
 function App() {
 
@@ -26,10 +27,13 @@ function App() {
   }, []);
 
   useEffect( () => {
+    /*
     getAllFAQs().then((data) => {
       setFAQs(data.faqs)
       }
     )
+    */
+   setFAQs(faqs.faqs)
   }, [])
 
   return (
