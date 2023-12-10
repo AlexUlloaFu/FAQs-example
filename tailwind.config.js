@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '375px',
+      sm: '100px',
       lg: '800px',
     },
     colors: {
@@ -20,9 +20,10 @@ module.exports = {
         'WorkSans': ["Work Sans"],
       },
       fontSize: {
-        'xs': "10px",
-        'sm': "13px",
-        'base': "15px"
+        'xs': "18px",
+        'sm': "20px",
+        'base': "22px",
+        'lg': "23px"
       }
     },
   },

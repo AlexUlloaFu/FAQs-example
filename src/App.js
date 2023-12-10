@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
    const handleResize = () => {
-     setBgImage(window.innerWidth >= 1000 ? bgDesktop : bgMobile);
+     setBgImage(window.innerWidth >= 500 ? bgDesktop : bgMobile);
    };
    window.addEventListener('resize', handleResize);
    // Clean up function
