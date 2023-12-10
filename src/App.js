@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
    const handleResize = () => {
-     setBgImage(window.innerWidth > 375 ? bgDesktop : bgMobile);
+     setBgImage(window.innerWidth >= 1000 ? bgDesktop : bgMobile);
    };
    window.addEventListener('resize', handleResize);
    // Clean up function
@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div>
-      <img className='absolute -z-20' src={bgImage} alt='background'/>
+      <img className='absolute w-full -z-20' src={bgImage} alt='background'/>
       <div className=" p-2">
         <div className=" mt-[10vh] sm:mt-[20vh] p-3 px-5 bg-White rounded-lg shadow min-h-[50vh] sm:w-11/12 lg:w-2/5 mx-auto">
           <div className="flex ">

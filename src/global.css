@@ -2,10 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-    font-family: 'WorkSans'; 
-    src: url('../public/fonts/static/WorkSans-Bold.ttf') , format(".ttf") ;
-}
+@import url(https://fonts.google.com/specimen/Work+Sans);
+
 @layer base{
     body {
         @apply bg-Pink;
